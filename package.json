@@ -9,6 +9,13 @@
     "dedupe-batch": "node tools/dedupe.js",
     "select-final": "node tools/select_final_500.js",
     "generate-batch": "node tools/generate_batch.js",
-    "run-batch": "bash tools/batch_runner.sh"
+    "run-batch": "bash tools/batch_runner.sh",
+    "sources:fetch": "node tools/fetch_sources.js",
+    "sources:unpack": "node tools/unpack_sources.js",
+    "sources:normalize": "node tools/normalize_sources.js",
+    "sources:dedupe": "node tools/dedupe_sources.js",
+    "sources:index": "node tools/index_sources.js",
+    "sources:catalog": "node tools/catalog_sources.js",
+    "sources:build": "npm run sources:unpack && npm run sources:normalize && npm run sources:dedupe && npm run sources:index && npm run sources:catalog"
   }
 }
