@@ -1,0 +1,12 @@
+{
+  "name": "projectm-preset-factory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unattended Codex + GitHub preset generation pipeline for projectM",
+  "scripts": {
+    "lint-batch": "node tools/lint_preset.js",
+    "score-batch": "node tools/score_static.js",
+    "dedupe-batch": "node tools/dedupe.js",
+    "select-final": "node tools/select_final_500.js"
+  }
+}
