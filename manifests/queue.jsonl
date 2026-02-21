@@ -1,4 +1,4 @@
-{"batch_id":"ambient_001","family":"ambient","count":120,"mode":"generate","status":"queued"}
+{"batch_id":"ambient_001","family":"ambient","count":120,"mode":"generate","status":"generated"}
 {"batch_id":"ambient_002","family":"ambient","count":120,"mode":"generate","status":"queued"}
 {"batch_id":"ambient_003","family":"ambient","count":120,"mode":"generate","status":"queued"}
 {"batch_id":"ambient_004","family":"ambient","count":120,"mode":"generate","status":"queued"}
