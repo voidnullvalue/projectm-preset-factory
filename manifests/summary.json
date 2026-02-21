@@ -1,0 +1,11 @@
+{
+  "accepted_total": 100,
+  "family_counts": {
+    "ambient": 100,
+    "tunnel": 0,
+    "geometric": 0,
+    "waveform": 0,
+    "aggressive": 0
+  },
+  "target_reached": false
+}

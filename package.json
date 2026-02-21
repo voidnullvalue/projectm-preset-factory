@@ -7,6 +7,8 @@
     "lint-batch": "node tools/lint_preset.js",
     "score-batch": "node tools/score_static.js",
     "dedupe-batch": "node tools/dedupe.js",
-    "select-final": "node tools/select_final_500.js"
+    "select-final": "node tools/select_final_500.js",
+    "generate-batch": "node tools/generate_batch.js",
+    "run-batch": "bash tools/batch_runner.sh"
   }
 }
